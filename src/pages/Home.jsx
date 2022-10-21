@@ -6,6 +6,7 @@ import {
   getCategoriesList,
 } from "../components/store/slices/categoriesSlice";
 import { Preloader } from "../components/Preloader";
+import {CategoryList} from "../components/CategoryList";
 
 function Home() {
   const dispatch = useDispatch();
@@ -21,10 +22,8 @@ function Home() {
       {loading ? (
         <Preloader />
       ) : (
-        categories &&
-        categories.map((category) => (
-          <p key={category.idCategory}>{category.strCategory}</p>
-        ))
+        categories && <CategoryList catalog={categories}/>
+
       )}
     </>
   );

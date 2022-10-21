@@ -17,11 +17,10 @@ function App() {
         <main className="container content">
           <Routes>
             <Route exact path="/" element={<Home props={data} />} />
-
             <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<Contact />} />
             <Route path="/movies/:id" element={<Movie />} />
-            <Route element={<PageNotFound />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </main>
         <Footer />
