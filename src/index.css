@@ -17,6 +17,36 @@ code {
     padding: 1.5rem 0
 }
 
+.categories-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
 nav {
     padding: 0 1rem
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0.5rem;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.meal-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+img, iframe {
+    max-width: 100% ;
+}
+
+iframe {
+    width: 600px;
+    height: 350px;
+}
+
