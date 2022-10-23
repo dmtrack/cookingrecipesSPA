@@ -12,7 +12,7 @@ import { Recipe } from "./components/Recipe";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/cookingrecipesSPA">
         <Header />
         <main className="container content">
           <Routes>
