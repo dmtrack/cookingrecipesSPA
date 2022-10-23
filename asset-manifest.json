@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cookingrecipesSPA/static/css/main.2ec401fe.css",
+    "main.js": "/cookingrecipesSPA/static/js/main.abe01d61.js",
+    "index.html": "/cookingrecipesSPA/index.html",
+    "main.2ec401fe.css.map": "/cookingrecipesSPA/static/css/main.2ec401fe.css.map",
+    "main.abe01d61.js.map": "/cookingrecipesSPA/static/js/main.abe01d61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ec401fe.css",
+    "static/js/main.abe01d61.js"
+  ]
+}
