@@ -7,8 +7,8 @@ This project was created to study SPA application building.
 
 ### Stack
 + JavaScript
-+ React hooks (useContext, useEffect, useNavigate)
-+ React Routes
++ React hooks (useContext, useEffect)
++ React Routes (useNavigate, useLocation)
 + Redux & ReduxToolkit
 + API 
 + Materialise UI framework
