@@ -41,5 +41,8 @@ nav {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
+img, iframe {
+    max-width: 100% ;
+}
 
 

@@ -1,8 +1,8 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Meal(props) {
   const { strMeal, strMealThumb, idMeal } = props;
-  const location = useLocation();
+
   return (
     <div className="card">
       <div className="card-image">
@@ -15,12 +15,8 @@ function Meal(props) {
         {/*<p>{strCategoryDescription.slice(0, 60)}...</p>*/}
       </div>
       <div className="card-action">
-        <Link
-          to={`${location.pathname}/${idMeal}`}
-          props={{ data: `${location.pathname}` }}
-          className="btn"
-        >
-          Watch meal
+        <Link to={`/meal/${idMeal}`} className="btn">
+          Watch recipe
         </Link>
       </div>
     </div>
