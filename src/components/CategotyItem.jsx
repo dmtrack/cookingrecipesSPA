@@ -7,9 +7,7 @@ function CategoryItem(props) {
     <div className="card">
       <div className="card-image">
         <img src={strCategoryThumb} alt={strCategory} />
-        <span className="card-title" style={{ color: "saddlebrown" }}>
-          {strCategory}
-        </span>
+        <span className="card-title" style={{ color: "saddlebrown" }}></span>
       </div>
       <div className="card-content">
         <p>{strCategoryDescription.slice(0, 60)}...</p>
