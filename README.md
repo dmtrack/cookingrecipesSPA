@@ -1,6 +1,6 @@
 
-## ***Cooking recipes ***
-[https://dmtrack.github.io/cookingrecipesSPA]
+## Cooking recipes
+[https://dmtrack.github.io/cookingrecipesSPA](https://dmtrack.github.io/cookingrecipesSPA)
 
 ### Description
 This project was created to study SPA application building. 
